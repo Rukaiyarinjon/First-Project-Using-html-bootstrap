@@ -59,6 +59,19 @@
   font: 14px;
 }
 
+/* second navbar part  */
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: black;
+}
+.nav-item {
+  padding-left: 10px;
+}
+.nav-link {
+  font-weight: 600;
+  font-size: 17px;
+}
+/* second navbar part  */
+
 .footer-col a{
   color: black;
   font: 23px;
@@ -107,3 +120,46 @@ margin: 0 auto;
   font-size: 16px;
 }
 
+/* img card part  */
+
+.img_overlayContainer {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+
+.img_overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  /* background-color: rgba(0, 0, 0, 0.4); */
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+
+}
+
+.img_content {
+  position: absolute;
+  bottom: 10%;
+  left: 30%;
+  text-align: center;
+}
+
+.img_content h3 {
+  text-transform: uppercase;
+  color: white;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+
+.img_content2 {
+  left: 40%;
+}
+
+.img_content2 h3 {
+  font-size: 40px;
+}
